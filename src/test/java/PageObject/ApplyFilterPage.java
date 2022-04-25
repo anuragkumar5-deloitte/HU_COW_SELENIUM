@@ -14,13 +14,16 @@ public class ApplyFilterPage {
         this.driver = driver;
     }
 
-
+    //Clicking on the explore button
     public void ClickExplore() throws InterruptedException {
         WebElement exploreBtnClick = driver.findElement(By.xpath("//*[@class='navlink']"));
         exploreBtnClick.click();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        Thread.sleep(2000);
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,200)");
     }
-
+   //Selecting the type of desk to book
     public void SelectTypes() throws InterruptedException {
         WebElement typeBtnClick = driver.findElement(By.xpath("//*[@class='form-select']"));
         typeBtnClick.click();
@@ -29,7 +32,7 @@ public class ApplyFilterPage {
         Select Desk = new Select(typeBtnClick);
         Desk.selectByValue("largedesk");
     }
-
+   //Selecting the location where desk has to be booked
     public void SelectLocation() throws InterruptedException {
         WebElement locationBtnClick = driver.findElement(By.xpath("(//*[@class='form-select'])[2]"));
         locationBtnClick.click();
@@ -39,17 +42,18 @@ public class ApplyFilterPage {
         Location.selectByValue("Gurugram");
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,200)");
+        driver.findElement(By.xpath("//div[@class='leftList']")).click();
     }
-
-    public void ValidateDesk() throws InterruptedException {
-        WebElement msg = driver.findElement(By.xpath("//p[normalize-space()='Gurugram']"));
-        String text = msg.getText();
-        String expectedText = "Gurugram";
-        Assert.assertEquals(text, expectedText);
-        Thread.sleep(2000);
-        WebElement bookBtnClick = driver.findElement(By.xpath("//*[@href='/spacedetails/3']"));
-        bookBtnClick.click();
-        Thread.sleep(2000);
-    }
+  //Validating the desk which shows after applying the filter
+//    public void ValidateDesk() throws InterruptedException {
+//        WebElement msg = driver.findElement(By.xpath("//p[normalize-space()='Gurugram']"));
+//        String text = msg.getText();
+//        String expectedText = "Gurugram";
+//        Assert.assertEquals(text, expectedText);
+//        Thread.sleep(2000);
+//        WebElement bookBtnClick = driver.findElement(By.xpath("//*[@href='/spacedetails/3']"));
+//        bookBtnClick.click();
+//        //Thread.sleep(2000);
+//    }
 
 }
