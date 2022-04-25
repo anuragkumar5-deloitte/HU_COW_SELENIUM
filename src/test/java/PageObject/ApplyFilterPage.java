@@ -45,15 +45,15 @@ public class ApplyFilterPage {
         driver.findElement(By.xpath("//div[@class='leftList']")).click();
     }
   //Validating the desk which shows after applying the filter
-//    public void ValidateDesk() throws InterruptedException {
-//        WebElement msg = driver.findElement(By.xpath("//p[normalize-space()='Gurugram']"));
-//        String text = msg.getText();
-//        String expectedText = "Gurugram";
-//        Assert.assertEquals(text, expectedText);
-//        Thread.sleep(2000);
-//        WebElement bookBtnClick = driver.findElement(By.xpath("//*[@href='/spacedetails/3']"));
-//        bookBtnClick.click();
-//        //Thread.sleep(2000);
-//    }
+    public void ValidateDesk() throws InterruptedException {
+        WebElement msg = driver.findElement(By.xpath("//p[normalize-space()='Gurugram']"));
+        String text = msg.getText();
+        String expectedText = "Gurugram";
+        Assert.assertEquals(text, expectedText);
+        Thread.sleep(2000);
+        WebElement bookBtnClick = driver.findElement(By.xpath("//*[@href='/spacedetails/3']"));
+        bookBtnClick.click();
+        //Thread.sleep(2000);
+    }
 
 }

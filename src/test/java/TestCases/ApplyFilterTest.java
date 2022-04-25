@@ -40,12 +40,12 @@ public class ApplyFilterTest extends Base {
         }
     }
 
-//    @Test(priority = 4)
-//    public void ValidateDeskTest() {
-//        try {
-//            userLog.ValidateDesk();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
+    @Test(priority = 4)
+    public void ValidateDeskTest() {
+        try {
+            userLog.ValidateDesk();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
