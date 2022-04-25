@@ -49,23 +49,5 @@ public class ApplyFilterPage {
         Desk.selectByValue("largedesk");
     }
 
-    public void SelectLocation() throws InterruptedException {
-        WebElement locationBtnClick = driver.findElement(By.xpath("(//*[@class='form-select'])[2]"));
-        locationBtnClick.click();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        Select Location = new Select(locationBtnClick);
-        Location.selectByValue("Gurugram");
-    }
-
-    public void ValidateDesk() throws InterruptedException {
-        WebElement msg = driver.findElement(By.xpath("//strong[@style='float: right;']"));
-        String text = msg.getText();
-        String expectedText = "largedesk";
-        Assert.assertEquals(text, expectedText);
-        Thread.sleep(2000);
-        WebElement bookBtnClick = driver.findElement(By.xpath("//*[@href='/spacedetails/3']"));
-        bookBtnClick.click();
-        Thread.sleep(2000);
-    }
 
 }

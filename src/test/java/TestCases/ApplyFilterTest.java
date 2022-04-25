@@ -3,8 +3,6 @@ import Resources.Base;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import PageObject.ApplyFilterPage;
-import Resources.Base;
-import PageObject.ApplyFilterPage;
 public class ApplyFilterTest extends Base {
     PageObject.ApplyFilterPage userLog;
 
@@ -49,21 +47,5 @@ public class ApplyFilterTest extends Base {
         }
     }
 
-    @Test(priority = 5)
-    public void SelectLocationTest() {
-        try {
-            userLog.SelectLocation();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
 
-    @Test(priority = 6)
-    public void ValidateDeskTest() {
-        try {
-            userLog.ValidateDesk();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 }
