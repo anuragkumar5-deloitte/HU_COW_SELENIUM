@@ -49,5 +49,11 @@ public class ApplyFilterPage {
         Desk.selectByValue("largedesk");
     }
 
-
+    public void SelectLocation() throws InterruptedException {
+        WebElement locationBtnClick = driver.findElement(By.xpath("(//*[@class='form-select'])[2]"));
+        locationBtnClick.click();
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        Select Location = new Select(locationBtnClick);
+        Location.selectByValue("Gurugram");
+    }
 }

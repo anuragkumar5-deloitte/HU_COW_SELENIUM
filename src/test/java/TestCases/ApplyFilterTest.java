@@ -47,5 +47,12 @@ public class ApplyFilterTest extends Base {
         }
     }
 
-
+    @Test(priority = 5)
+    public void SelectLocationTest() {
+        try {
+            userLog.SelectLocation();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }
