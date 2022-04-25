@@ -55,4 +55,13 @@ public class ApplyFilterTest extends Base {
             e.printStackTrace();
         }
     }
+
+    @Test(priority = 6)
+    public void ValidateDeskTest() {
+        try {
+            userLog.ValidateDesk();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
