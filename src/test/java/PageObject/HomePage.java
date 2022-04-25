@@ -39,8 +39,8 @@ public class HomePage {
     By LargeDesk = By.xpath("//*[@id=\"root\"]/div/div/div[1]/div[2]/section/div/div[2]/div/div/div[2]/div[2]/a");
     By Cabin = By.xpath("//*[@id=\"root\"]/div/div/div[1]/div[2]/section/div/div[3]/div/div/div[2]/div[2]/a");
     By BookNow = By.xpath("//*[@id=\"root\"]/div/div/div[1]/div[3]/div/div[2]/div/div/div[3]/div/div/div/div/div/div[2]/a/p");
-    By ArrowRight = By.xpath("//*[@id=\"root\"]/div/div/div[1]/div[3]/div/div[1]/div[2]/i");
-    By ArrowLeft = By.xpath("//*[@id=\"root\"]/div/div/div[1]/div[3]/div/div[1]/div[1]/i");
+//    By ArrowRight = By.xpath("//*[@id=\"root\"]/div/div/div[1]/div[3]/div/div[1]/div[2]/i");
+//    By ArrowLeft = By.xpath("//*[@id=\"root\"]/div/div/div[1]/div[3]/div/div[1]/div[1]/i");
 
     public void explore(WebDriver driver) throws InterruptedException {
         Thread.sleep(1000);
@@ -76,12 +76,10 @@ public class HomePage {
         Thread.sleep(1000);
         searchandclick(driver.findElement(BookNow));
         Thread.sleep(1000);
+        driver.get("https://hu-spacecorp-urtjok3rza-wl.a.run.app/");
     }
-    public  void Arrow_Right(WebDriver driver) {
-        Assert.assertTrue(driver.findElement(ArrowRight).isEnabled());
-    }
-    public  void Arrow_Left(WebDriver driver) throws InterruptedException {
-        Assert.assertTrue(driver.findElement(ArrowRight).isEnabled());
+
+
 
     }
-}
+

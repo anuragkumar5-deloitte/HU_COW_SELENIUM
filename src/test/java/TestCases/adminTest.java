@@ -11,47 +11,47 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class adminTest extends Base {
-    adminPage admin;
+    adminPage admin=new adminPage();;
 
-    @BeforeMethod
-    public void setup() throws IOException {
-        driverCreation();
-        admin=new adminPage(driver);
-
-
-    }
-    @Test(priority = 1)
+//    @BeforeMethod
+//    public void setup() throws IOException {
+//        driverCreation();
+//        admin=new adminPage(driver);
+//
+//
+//    }
+    @Test(priority = 18)
     public void adminScenarioTest() throws InterruptedException {
-        admin.visitAdminPage();
+//        admin.visitAdminPage();
         admin.fillAddSpaceForm();
-        driver.close();
+//        driver.close();
 
     }
 
 
 
-    @Test(priority = 2)
+    @Test(priority = 19)
     public void addSpaceBtnTest() throws InterruptedException {
-        admin.visitAdminPage();
+//        admin.visitAdminPage();
         admin.clickAddSpace();
-        driver.close();
+//        driver.close();
 
     }
 
-    @Test(priority = 3)
+    @Test(priority = 20)
     public void totalSpaceBtnTest() throws InterruptedException {
-        admin.visitAdminPage();
+//        admin.visitAdminPage();
         admin.clickTotalSpace();
-        driver.close();
+//        driver.close();
 
     }
 
 
-    @Test(priority = 4)
+    @Test(priority = 21)
     public void bookedSpaceBtnTest() throws InterruptedException {
-        admin.visitAdminPage();
+//        admin.visitAdminPage();
         admin.clickBookedSpace();
-        driver.close();
+//        driver.close();
 
     }
 

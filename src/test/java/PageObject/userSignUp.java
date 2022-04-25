@@ -1,4 +1,4 @@
-package PageObjects;
+package PageObject;
 
 import org.junit.Assert;
 import org.openqa.selenium.Alert;

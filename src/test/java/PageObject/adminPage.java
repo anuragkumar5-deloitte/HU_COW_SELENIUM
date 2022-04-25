@@ -7,26 +7,26 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class adminPage extends Base {
-    WebDriver driver;
-    public adminPage(WebDriver driver){
-        this.driver=driver;
-    }
+//    WebDriver driver;
+//    public adminPage(WebDriver driver){
+//        this.driver=driver;
+//    }
 
 
 
-    public void visitAdminPage() throws InterruptedException {
-
-        WebElement loginBtnClick = driver.findElement(By.xpath("//button[contains(text(),'Login')]"));
-        loginBtnClick.click();
-        Thread.sleep(2000);
-        WebElement signBtn = driver.findElement(By.xpath("//a[@href='/ownerLogin']/child::button[text()='Sign in']"));
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].click()",signBtn);
-        driver.findElement(By.xpath("//input[@id='formBasicUsername']")).sendKeys("admin");
-        driver.findElement(By.xpath("//input[@id='formBasicPassword']")).sendKeys("admin");
-        driver.findElement(By.xpath("//div[@class='d-grid']/child::button[text()='Login']")).click();
-
-    }
+//    public void visitAdminPage() throws InterruptedException {
+//
+//        WebElement loginBtnClick = driver.findElement(By.xpath("//button[contains(text(),'Login')]"));
+//        loginBtnClick.click();
+//        Thread.sleep(2000);
+//        WebElement signBtn = driver.findElement(By.xpath("//a[@href='/ownerLogin']/child::button[text()='Sign in']"));
+//        JavascriptExecutor js = (JavascriptExecutor) driver;
+//        js.executeScript("arguments[0].click()",signBtn);
+//        driver.findElement(By.xpath("//input[@id='formBasicUsername']")).sendKeys("admin");
+//        driver.findElement(By.xpath("//input[@id='formBasicPassword']")).sendKeys("admin");
+//        driver.findElement(By.xpath("//div[@class='d-grid']/child::button[text()='Login']")).click();
+//
+//    }
 
 
 

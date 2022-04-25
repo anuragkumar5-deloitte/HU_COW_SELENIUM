@@ -2,18 +2,18 @@ package TestCases;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import PageObjects.userSignUp;
+import PageObject.userSignUp;
 import Resources.Base;
 
 public class userSignupTest extends Base {
-    userSignUp signup ;
+    userSignUp signup = new userSignUp();
 
-    @BeforeTest
-    public void setUp(){
-        driverCreation();
-        signup = new userSignUp();
-    }
-    @Test(priority = 1)
+//    @BeforeTest
+//    public void setUp(){
+//        driverCreation();
+//        signup = new userSignUp();
+//    }
+    @Test(priority = 6)
     public void validateSignup(){
         try {
             signup.signUp();

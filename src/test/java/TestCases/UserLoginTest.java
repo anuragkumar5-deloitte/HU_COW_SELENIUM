@@ -8,23 +8,23 @@ import org.testng.annotations.Test;
 
 
 public class UserLoginTest extends Base {
-    UserLogin userLog;
+    UserLogin userLog= new UserLogin();;
 
-    @BeforeTest
-    public void setUp(){
-        driverCreation();
-        userLog = new UserLogin(driver);
-    }
+//    @BeforeTest
+//    public void setUp(){
+//        driverCreation();
+//        userLog = new UserLogin(driver);
+//    }
 
-    @Test(priority = 1)
-    public void clickLoginTest() {
-        try {
-            userLog.clickLogin();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-    @Test(priority = 2)
+//    @Test(priority = 3)
+//    public void clickLoginTest() {
+//        try {
+//            userLog.clickLogin();
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//    }
+    @Test(priority = 7)
     public void enterUserNameTest(){
         System.out.println("User puts their respective username");
 
@@ -34,7 +34,7 @@ public class UserLoginTest extends Base {
             e.printStackTrace();
         }
     }
-    @Test(priority = 3)
+    @Test(priority = 8)
     public void enterPasswordTest(){
         System.out.println("User puts their respective password");
         try{
@@ -43,7 +43,7 @@ public class UserLoginTest extends Base {
             e.printStackTrace();
         }
     }
-    @Test(priority = 4)
+    @Test(priority = 9)
     public void validateClickCheckBox(){
         try{
             userLog.clickCheckBox();
@@ -51,7 +51,7 @@ public class UserLoginTest extends Base {
             e.printStackTrace();
         }
     }
-    @Test(priority = 5)
+    @Test(priority = 10)
     public void clickUserLoginTest(){
         try{
             userLog.clickUserLogin();

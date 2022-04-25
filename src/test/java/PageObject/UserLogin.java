@@ -1,6 +1,7 @@
 package PageObject;
 
 
+import Resources.Base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -8,19 +9,21 @@ import org.openqa.selenium.WebElement;
 
 import java.util.concurrent.TimeUnit;
 
+import static Resources.Base.driver;
 
-public class UserLogin {
-    WebDriver driver;
 
-    public UserLogin(WebDriver driver){
-        this.driver = driver;
-    }
+public class UserLogin extends Base {
+//    WebDriver driver;
+//
+//    public UserLogin(WebDriver driver){
+//        this.driver = driver;
+//    }
 
-    public void clickLogin() throws InterruptedException {
-        WebElement loginBtnClick = driver.findElement(By.xpath("//button[contains(text(),'Login')]"));
-        loginBtnClick.click();
-        driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
-    }
+//    public void clickLogin() throws InterruptedException {
+//        WebElement loginBtnClick = driver.findElement(By.xpath("//button[contains(text(),'Login')]"));
+//        loginBtnClick.click();
+//        driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
+//    }
     public void enterUserNAme(){
         WebElement userName = driver.findElement(By.xpath("//input[@id='formBasicUsername']"));
         userName.sendKeys("ApurwaPrachi");
