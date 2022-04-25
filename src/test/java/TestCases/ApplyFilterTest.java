@@ -12,24 +12,8 @@ public class ApplyFilterTest extends Base {
         userLog = new ApplyFilterPage(driver);
     }
 
-    @Test(priority = 1)
-    public void ClickLoginTest() {
-        try {
-            userLog.ClickLogin();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-    @Test(priority = 2)
-    public void LoginTest(){
-        try{
-            userLog.Login();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 
-    @Test(priority = 3)
+    @Test(priority = 1)
     public void ClickExploreTest() {
         try {
             userLog.ClickExplore();
@@ -38,7 +22,7 @@ public class ApplyFilterTest extends Base {
         }
     }
 
-    @Test(priority = 4)
+    @Test(priority = 2)
     public void SelectTypesTest() {
         try {
             userLog.SelectTypes();
@@ -47,7 +31,7 @@ public class ApplyFilterTest extends Base {
         }
     }
 
-    @Test(priority = 5)
+    @Test(priority = 3)
     public void SelectLocationTest() {
         try {
             userLog.SelectLocation();
@@ -56,7 +40,7 @@ public class ApplyFilterTest extends Base {
         }
     }
 
-    @Test(priority = 6)
+    @Test(priority = 4)
     public void ValidateDeskTest() {
         try {
             userLog.ValidateDesk();

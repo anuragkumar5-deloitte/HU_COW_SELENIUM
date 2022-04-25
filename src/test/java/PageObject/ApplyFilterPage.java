@@ -14,25 +14,6 @@ public class ApplyFilterPage {
         this.driver = driver;
     }
 
-    public void ClickLogin() throws InterruptedException {
-        WebElement loginBtnClick = driver.findElement(By.xpath("//button[contains(text(),'Login')]"));
-        loginBtnClick.click();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-    }
-
-    public void Login() throws InterruptedException {
-        WebElement userName = driver.findElement(By.xpath("//input[@id='formBasicUsername']"));
-        userName.sendKeys("ayurai");
-        WebElement password = driver.findElement(By.xpath("//input[@id='formBasicPassword']"));
-        password.sendKeys("123456");
-        WebElement checkBox = driver.findElement(By.xpath("//input[@id='formBasicCheckbox']"));
-        checkBox.click();
-        WebElement loginBtnClick = driver.findElement(By.xpath("//button[@type='submit']"));
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,200)");
-        js.executeScript("arguments[0].click()", loginBtnClick);
-        Thread.sleep(2000);
-    }
 
     public void ClickExplore() throws InterruptedException {
         WebElement exploreBtnClick = driver.findElement(By.xpath("//*[@class='navlink']"));
