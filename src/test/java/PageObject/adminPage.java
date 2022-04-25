@@ -32,12 +32,12 @@ public class adminPage extends Base {
 
     public void fillAddSpaceForm() throws InterruptedException {
         driver.findElement(By.xpath("//a[normalize-space()='Add Space']")).click();
-        driver.findElement(By.xpath("//input[@id='exampleInputSpaceName']")).sendKeys("Sample Place Three");
+        driver.findElement(By.xpath("//input[@id='exampleInputSpaceName']")).sendKeys("HashedIN ");
         Thread.sleep(2000);
-        driver.findElement(By.xpath("//input[@id='exampleInputSpaceAddress']")).sendKeys("Sample Address Three");
+        driver.findElement(By.xpath("//input[@id='exampleInputSpaceAddress']")).sendKeys("Gurugram");
 
 
-        driver.findElement(By.xpath("//input[@id='exampleSpacePrice']")).sendKeys("100");
+        driver.findElement(By.xpath("//input[@id='exampleSpacePrice']")).sendKeys("200");
         Thread.sleep(2000);
         WebElement addBtnClick = driver.findElement(By.xpath("//button[@type='submit']"));
         JavascriptExecutor js = (JavascriptExecutor) driver;

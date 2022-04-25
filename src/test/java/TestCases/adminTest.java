@@ -25,6 +25,7 @@ public class adminTest extends Base {
         admin.visitAdminPage();
         admin.fillAddSpaceForm();
         driver.close();
+
     }
 
 
