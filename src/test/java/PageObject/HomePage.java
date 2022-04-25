@@ -77,14 +77,11 @@ public class HomePage {
         searchandclick(driver.findElement(BookNow));
         Thread.sleep(1000);
     }
-    public  void Arrow_Right() {
+    public  void Arrow_Right(WebDriver driver) {
         Assert.assertTrue(driver.findElement(ArrowRight).isEnabled());
     }
     public  void Arrow_Left(WebDriver driver) throws InterruptedException {
-        driver.get("https://hu-spacecorp-urtjok3rza-wl.a.run.app/");
-        Thread.sleep(1000);
-        searchandclick(driver.findElement(ArrowLeft));
-        Thread.sleep(1000);
+        Assert.assertTrue(driver.findElement(ArrowRight).isEnabled());
 
     }
 }
