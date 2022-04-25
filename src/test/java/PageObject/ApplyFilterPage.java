@@ -1,4 +1,5 @@
 package PageObject;
+import Resources.Base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -7,12 +8,12 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import java.util.concurrent.TimeUnit;
 
-public class ApplyFilterPage {
-    WebDriver driver;
-
-    public ApplyFilterPage(WebDriver driver) {
-        this.driver = driver;
-    }
+public class ApplyFilterPage extends Base {
+//    WebDriver driver;
+//
+//    public ApplyFilterPage(WebDriver driver) {
+//        this.driver = driver;
+//    }
 
     //Clicking on the explore button
     public void ClickExplore() throws InterruptedException {

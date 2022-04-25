@@ -4,16 +4,15 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import PageObject.ApplyFilterPage;
 public class ApplyFilterTest extends Base {
-    PageObject.ApplyFilterPage userLog;
+    PageObject.ApplyFilterPage userLog= new ApplyFilterPage();
+//    @BeforeTest
+//    public void setUp() {
+//        driverCreation();
+//        userLog = new ApplyFilterPage(driver);
+//    }
 
-    @BeforeTest
-    public void setUp() {
-        driverCreation();
-        userLog = new ApplyFilterPage(driver);
-    }
 
-
-    @Test(priority = 1)
+    @Test(priority = 11)
     public void ClickExploreTest() {
         try {
             userLog.ClickExplore();
@@ -22,7 +21,7 @@ public class ApplyFilterTest extends Base {
         }
     }
 
-    @Test(priority = 2)
+    @Test(priority = 12)
     public void SelectTypesTest() {
         try {
             userLog.SelectTypes();
@@ -31,7 +30,7 @@ public class ApplyFilterTest extends Base {
         }
     }
 
-    @Test(priority = 3)
+    @Test(priority = 13)
     public void SelectLocationTest() {
         try {
             userLog.SelectLocation();
@@ -40,7 +39,7 @@ public class ApplyFilterTest extends Base {
         }
     }
 
-    @Test(priority = 4)
+    @Test(priority = 14)
     public void ValidateDeskTest() {
         try {
             userLog.ValidateDesk();

@@ -2,7 +2,7 @@ package TestCases;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import PageObjects.adminSignUp;
+import PageObject.adminSignUp;
 import Resources.Base;
 
 public class AdminSignupTest extends Base {
@@ -13,7 +13,7 @@ public class AdminSignupTest extends Base {
         driverCreation();
         signup = new adminSignUp();
     }
-    @Test
+    @Test (priority = 17)
     public void validateAdminSignup(){
         try {
             signup.clickLogin();
@@ -67,9 +67,9 @@ public class AdminSignupTest extends Base {
         }
         try{
             signup.loginBtn();
-            signup.enterUserName();
-            signup.enterPassword();
-            signup.ownerLogin();
+//            signup.enterUserName();
+//            signup.enterPassword();
+//            signup.ownerLogin();
         } catch (Exception e) {
             e.printStackTrace();
         }

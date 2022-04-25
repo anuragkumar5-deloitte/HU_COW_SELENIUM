@@ -51,19 +51,19 @@ public class HomePageTest extends Base {
         page.Book_Now(driver);
         Thread.sleep(3000);
     }
-    @Test(priority = 6)
-    public void Home_page_Arrow_Right(){
-        HomePage page = new HomePage(driver);
-        try {
-            page.Arrow_Right(driver);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+//    @Test(priority = 6)
+//    public void Home_page_Arrow_Right(){
+//        HomePage page = new HomePage(driver);
+//        try {
+//            page.Arrow_Right(driver);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
 
-    @AfterClass
-    public void After_Test(){
-        driver.close();
+//    @AfterClass
+//    public void After_Test(){
+//        driver.close();
 
-    }
+ //   }
 }
