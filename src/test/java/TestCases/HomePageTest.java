@@ -27,20 +27,13 @@ public class HomePageTest extends Base {
 
     }
     @Test(priority = 2)
-    public void Home_Page_Search() throws InterruptedException {
-        HomePage page = new HomePage(driver);
-        page.Search_input(driver);
-        Thread.sleep(3000);
-
-    }
-    @Test(priority = 3)
     public void Home_page_Hot_Seats() throws InterruptedException {
         HomePage page = new HomePage(driver);
         page.Hot_Seats(driver);
         Thread.sleep(3000);
 
     }
-    @Test(priority = 4)
+    @Test(priority = 3)
     public void Home_page_Large_Desk() throws InterruptedException {
         HomePage page = new HomePage(driver);
         page.Large_Desk(driver);
