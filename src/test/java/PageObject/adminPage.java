@@ -44,14 +44,25 @@ public class adminPage extends Base {
         js.executeScript("arguments[0].click()",addBtnClick);
 
 
+    }
 
-
+    public void clickAddSpace(){
+        driver.findElement(By.xpath("//a[normalize-space()='Add Space']")).click();
 
 
     }
 
+    public void clickTotalSpace(){
 
+        driver.findElement(By.xpath("//div[@class='totalSpacesCard card']//div[@class='card-body']")).click();
 
+    }
+
+    public void clickBookedSpace(){
+
+        driver.findElement(By.xpath("//a[normalize-space()='Booked Spaces']")).click();
+
+    }
 
 
 }
