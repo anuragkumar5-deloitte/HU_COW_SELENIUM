@@ -39,34 +39,27 @@ public class HomePageTest extends Base {
         page.Large_Desk(driver);
         Thread.sleep(3000);
     }
-    @Test(priority = 5)
+    @Test(priority = 4)
     public void Home_Page_cabin() throws InterruptedException {
         HomePage page = new HomePage(driver);
         page.cabin(driver);
         Thread.sleep(3000);
     }
-    @Test(priority = 6)
+    @Test(priority = 5)
     public void Home_page_Book_Now() throws InterruptedException {
         HomePage page = new HomePage(driver);
         page.Book_Now(driver);
         Thread.sleep(3000);
     }
-    @Test(priority = 7)
+    @Test(priority = 6)
     public void Home_page_Arrow_Right(){
         HomePage page = new HomePage(driver);
         try {
-            page.Arrow_Right();
+            page.Arrow_Right(driver);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-    @Test(priority = 8)
-    public void Home_page_Arrow_Left() throws InterruptedException {
-        HomePage page = new HomePage(driver);
-        page.Arrow_Left(driver);
-        Thread.sleep(3000);
-    }
-
 
     @AfterClass
     public void After_Test(){
