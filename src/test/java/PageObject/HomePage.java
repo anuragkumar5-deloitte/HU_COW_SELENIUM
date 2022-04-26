@@ -76,12 +76,11 @@ public class HomePage {
         Thread.sleep(1000);
         searchandclick(driver.findElement(BookNow));
         Thread.sleep(1000);
+        driver.get("https://hu-spacecorp-urtjok3rza-wl.a.run.app/");
     }
     public  void Arrow_Right(WebDriver driver) {
         Assert.assertTrue(driver.findElement(ArrowRight).isEnabled());
-    }
-    public  void Arrow_Left(WebDriver driver) throws InterruptedException {
-        Assert.assertTrue(driver.findElement(ArrowRight).isEnabled());
-
+        //driver.navigate().refresh();
+        driver.get("https://hu-spacecorp-urtjok3rza-wl.a.run.app/");
     }
 }

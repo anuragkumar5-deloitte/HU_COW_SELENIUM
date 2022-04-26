@@ -1,4 +1,4 @@
-package PageObjects;
+package PageObject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 
 public class BookingPage extends Base {
-    By explore = By.xpath("//li[contains(text(),'Explore')]");
+    //By explore = By.xpath("//li[contains(text(),'Explore')]");
     By detailsPage = By.xpath("//h3[contains(text(),'Additional Details')]");
     By conBooking = By.xpath("//*[text()='Continue with Booking']");
     By hoursField = By.xpath("//input[@id='formBasicHours']");
@@ -21,17 +21,17 @@ public class BookingPage extends Base {
     By homePage = By.xpath("//a[text()='Go to Home Page']");
 
 
-    public void explore() throws InterruptedException {
-        //clicks on explore nav element
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        WebElement exploreEle = driver.findElement(explore);
-        js.executeScript("arguments[0].click()",exploreEle);
-        Thread.sleep(2000);
-
-        //book now hyperlink
-        WebElement bookNow = driver.findElement(By.xpath("//*[text()='Book Now ']"));
-        bookNow.click();
-    }
+//    public void explore() throws InterruptedException {
+//        //clicks on explore nav element
+//        JavascriptExecutor js = (JavascriptExecutor) driver;
+//        WebElement exploreEle = driver.findElement(explore);
+//        js.executeScript("arguments[0].click()",exploreEle);
+//        Thread.sleep(2000);
+//
+//        //book now hyperlink
+//        WebElement bookNow = driver.findElement(By.xpath("//*[text()='Book Now ']"));
+//        bookNow.click();
+  //  }
     public void continueBooking() throws InterruptedException {
 
         //validating the page
@@ -108,5 +108,6 @@ public class BookingPage extends Base {
         //click on go to home page which redirect to homepage
         WebElement goHome = driver.findElement(homePage);
         goHome.click();
+
     }
 }

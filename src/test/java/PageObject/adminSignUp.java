@@ -1,4 +1,4 @@
-package PageObjects;
+package PageObject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -16,7 +16,7 @@ public class adminSignUp extends Base {
     By date = By.xpath("//*[@id=\"formBasicDob\"]");
     By bio = By.xpath("//*[@id=\"formBasicBio\"]");
     By submit =By.xpath("//*[@id=\"root\"]/div/div/div[1]/div[1]/form/div[8]/button");
-    By login = By.xpath("//*[@id=\"root\"]/div/div/div[1]/div[1]/h4/a/button");
+    By login = By.xpath("//*[@id='root']/div/div/div[1]/div[1]/h4/a/button");
     AdminExcel excel;
 
     public adminSignUp(){
@@ -76,11 +76,14 @@ public class adminSignUp extends Base {
 
     public void clickSubmit(){
         WebElement sub = driver.findElement(submit);
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].click()",sub);
+        sub.click();
+//        JavascriptExecutor js = (JavascriptExecutor) driver;
+//        js.executeScript("arguments[0].click()",sub);
     }
     public void loginBtn(){
-        driver.findElement(login).click();
+        WebElement log = driver.findElement(login);
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click()",log);
     }
     public void ownerLogin(){
         WebElement ownerLogin = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[1]/div[1]/form/div[3]/button"));

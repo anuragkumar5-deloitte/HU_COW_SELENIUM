@@ -30,31 +30,24 @@ public class UserExcel {
                 XSSFCell cell = row.getCell(j);
                 if (j == 0) {
                     name = cell.getStringCellValue();
-                    System.out.println(name);
                 }
                 if (j == 1) {
                     username = cell.getStringCellValue();
-                    System.out.println(username);
                 }
                 if (j == 2) {
                     password =  cell.getStringCellValue();
-                    System.out.println(password);
                 }
                 if (j == 3) {
                     contact = cell.getStringCellValue();
-                    System.out.println(contact);
                 }
                 if (j == 4) {
                     email =  cell.getStringCellValue();
-                    System.out.println(email);
                 }
                 if (j == 5) {
                     orgMail =  cell.getStringCellValue();
-                    System.out.println(orgMail);
                 }
                 if (j == 6) {
                     date =  cell.getStringCellValue();
-                    System.out.println(date);
                 }
 
             }

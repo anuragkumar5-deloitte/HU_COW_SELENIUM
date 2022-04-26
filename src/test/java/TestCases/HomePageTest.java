@@ -61,9 +61,8 @@ public class HomePageTest extends Base {
         }
     }
 
-    @AfterClass
-    public void After_Test(){
-        driver.close();
-
-    }
+//    @AfterClass
+//    public void After_Test(){
+//        driver.close();
+//    }
 }
