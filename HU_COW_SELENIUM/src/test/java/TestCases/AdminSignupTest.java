@@ -1,6 +1,4 @@
 package TestCases;
-
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import PageObject.adminSignUp;
 import Resources.Base;
@@ -8,11 +6,7 @@ import Resources.Base;
 public class AdminSignupTest extends Base {
     adminSignUp signup = new adminSignUp() ;
 
-//    @BeforeTest
-//    public void setUp(){
-//        driverCreation();
-//        signup = new adminSignUp();
-//    }
+
     @Test(priority = 19)
     public void validateAdminSignup(){
         try {
@@ -78,9 +72,6 @@ public class AdminSignupTest extends Base {
         try{
             signup.loginBtn();
             Thread.sleep(1000);
-//            signup.enterUserName();
-//            signup.enterPassword();
-//            signup.ownerLogin();
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -19,19 +19,6 @@ public class BookingPage extends Base {
     By rupeesEle = By.xpath("//div[@class='card-body']/child::div[@class='my-2 text-muted card-subtitle h6']/child::strong");
     By confirmBooking = By.xpath("//button[text()='Confirm Booking']");
     By homePage = By.xpath("//a[text()='Go to Home Page']");
-
-
-//    public void explore() throws InterruptedException {
-//        //clicks on explore nav element
-//        JavascriptExecutor js = (JavascriptExecutor) driver;
-//        WebElement exploreEle = driver.findElement(explore);
-//        js.executeScript("arguments[0].click()",exploreEle);
-//        Thread.sleep(2000);
-//
-//        //book now hyperlink
-//        WebElement bookNow = driver.findElement(By.xpath("//*[text()='Book Now ']"));
-//        bookNow.click();
-  //  }
     public void continueBooking() throws InterruptedException {
 
         //validating the page

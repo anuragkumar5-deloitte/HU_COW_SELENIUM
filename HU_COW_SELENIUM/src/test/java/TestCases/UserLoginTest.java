@@ -9,21 +9,6 @@ import org.testng.annotations.Test;
 
 public class UserLoginTest extends Base {
     UserLogin userLog  = new UserLogin();
-
-//    @BeforeTest
-//    public void setUp(){
-//        driverCreation();
-//        userLog = new UserLogin();
-//    }
-
-//    @Test(priority = 1)
-//    public void clickLoginTest() {
-//        try {
-//            userLog.clickLogin();
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//    }
     @Test(priority = 8)
     public void enterUserNameTest(){
         System.out.println("User puts their respective username");

@@ -83,15 +83,12 @@ public class userSignUp extends Base {
         WebElement sub = driver.findElement(submit);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click()",sub);
-//        try {
             WebDriverWait wait = new WebDriverWait(driver, 2);
             wait.until(ExpectedConditions.alertIsPresent());
             Alert alert = driver.switchTo().alert();
             System.out.println(alert.getText());
             alert.accept();
             Assert.assertTrue(alert.getText().contains("User created"));
-//        } catch (Exception e) {
-//            System.out.println(e);
-//        }
+
     }
 }

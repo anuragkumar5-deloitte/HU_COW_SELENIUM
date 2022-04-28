@@ -32,10 +32,24 @@
       <change beforePath="$PROJECT_DIR$/screenshots/validateConfirmBookingPage.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/validateConfirmBookingPage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screenshots/validateContinueBooking.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/validateContinueBooking.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screenshots/validateSignup.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/validateSignup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/ApplyFilterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/ApplyFilterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BookingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/UserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/addreviewpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/addreviewpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/adminLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/adminLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/adminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/adminPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/adminSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/adminSignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/userSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/userSignUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Resources/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Resources/Base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Resources/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Resources/TestngListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/AdminSignupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/AdminSignupTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/AdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/AdminTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ApplyFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ApplyFilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/UserLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/UserLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/addreviewtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/addreviewtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/userSignupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/userSignupTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/PageObject/ApplyFilterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObject/ApplyFilterPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/PageObject/BookingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObject/BookingPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/PageObject/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObject/HomePage.class" afterDir="false" />
