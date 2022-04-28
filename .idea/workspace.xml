@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80737a4f-6302-4401-9b7a-a8c8ee2924c8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/ApplyFilterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/ApplyFilterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BookingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/UserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/addreviewpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/addreviewpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/adminLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/adminLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/adminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/adminPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/adminSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/adminSignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/userSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/userSignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/Base.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/Listeners.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/AdminSignupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/AdminSignupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/AdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/AdminTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ApplyFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ApplyFilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/UserLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/UserLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/addreviewtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/addreviewtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/userSignupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/userSignupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="28PtXGw9XudCM5f6A9U8Fu68umo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RunManager">
     <configuration name="C:/Users/ayurai/IdeaProjects/finalseleniumstructure/HU_COW_SELENIUM/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HU_COW_SELENIUM_MAIN" />
@@ -16,5 +69,27 @@
         <item itemvalue="TestNG.C:/Users/ayurai/IdeaProjects/finalseleniumstructure/HU_COW_SELENIUM/testng.xml" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80737a4f-6302-4401-9b7a-a8c8ee2924c8" name="Changes" comment="" />
+      <created>1651130089851</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651130089851</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

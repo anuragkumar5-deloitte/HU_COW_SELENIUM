@@ -1,8 +1,6 @@
 package TestCases;
 
 import PageObject.UserLogin;
-import Resources.Base;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 

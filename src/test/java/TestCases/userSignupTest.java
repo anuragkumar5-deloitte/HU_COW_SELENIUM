@@ -1,9 +1,7 @@
 package TestCases;
 
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import PageObject.userSignUp;
-import Resources.Base;
 
 public class userSignupTest extends Base {
     userSignUp signup = new userSignUp() ;

@@ -1,6 +1,5 @@
 package TestCases;
 
-import Resources.Base;
 import PageObject.HomePage;
 import org.testng.annotations.*;
 

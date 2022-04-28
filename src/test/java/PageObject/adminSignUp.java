@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import Resources.AdminExcel;
-import Resources.Base;
 
 public class adminSignUp extends Base {
     By signUp = By.xpath("//*[@id=\"root\"]/div/div/div[1]/div[1]/h4/a/button");

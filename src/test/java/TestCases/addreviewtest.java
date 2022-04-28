@@ -1,7 +1,5 @@
 package TestCases;
 import PageObject.addreviewpage;
-import Resources.Base;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class addreviewtest extends Base
