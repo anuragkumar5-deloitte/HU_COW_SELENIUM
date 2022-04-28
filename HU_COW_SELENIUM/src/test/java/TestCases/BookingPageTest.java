@@ -9,7 +9,6 @@ public class BookingPageTest {
     @Test(priority = 16)
     public void validateContinueBooking() {
         try {
-            //book.explore();
             book.continueBooking();
         } catch (InterruptedException e) {
             e.printStackTrace();

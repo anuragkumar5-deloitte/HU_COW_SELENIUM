@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import Resources.AdminExcel;
 import Resources.Base;
 
+import java.util.concurrent.TimeUnit;
+
 public class adminSignUp extends Base {
     By signUp = By.xpath("//*[@id=\"root\"]/div/div/div[1]/div[1]/h4/a/button");
     By name = By.xpath("//*[@id='formBasicName']");
@@ -32,20 +34,18 @@ public class adminSignUp extends Base {
     public void clickLogin() throws InterruptedException {
         WebElement loginBtnClick = driver.findElement(By.xpath("//button[contains(text(),'Login')]"));
         loginBtnClick.click();
-        Thread.sleep(2000);
+        TimeUnit.MILLISECONDS.sleep(1000);
     }
     public void adminsigninBtn(){
         WebElement signBtn = driver.findElement(By.xpath("//a[@href='/ownerLogin']/child::button[text()='Sign in']"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click()",signBtn);
-        //signBtn.click();
         driver.findElement(signUp).click();
 
     }
 
     public void enterName(){
         String Name = excel.getName();
-
         driver.findElement(name).sendKeys(Name);
 
     }

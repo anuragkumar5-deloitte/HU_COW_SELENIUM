@@ -13,7 +13,7 @@ public class ApplyFilterPage extends Base {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement exploreBtnClick = driver.findElement(By.xpath("//*[@class='navlink']"));
         js.executeScript("arguments[0].click()",exploreBtnClick);
-        Thread.sleep(2000);
+        TimeUnit.MILLISECONDS.sleep(1000);
         js.executeScript("window.scrollBy(0,200)");
     }
     //Selecting the type of desk to book
@@ -21,9 +21,8 @@ public class ApplyFilterPage extends Base {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement typeBtnClick = driver.findElement(By.xpath("//*[@class='form-select']"));
         js.executeScript("arguments[0].click()",typeBtnClick);
-       // typeBtnClick.click();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        Thread.sleep(2000);
+        TimeUnit.MILLISECONDS.sleep(1000);
         Select Desk = new Select(typeBtnClick);
         Desk.selectByValue("largedesk");
     }
@@ -33,7 +32,7 @@ public class ApplyFilterPage extends Base {
         WebElement locationBtnClick = driver.findElement(By.xpath("(//*[@class='form-select'])[2]"));
         js.executeScript("arguments[0].click()",locationBtnClick);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        Thread.sleep(2000);
+        TimeUnit.MILLISECONDS.sleep(1000);
         Select Location = new Select(locationBtnClick);
         Location.selectByValue("Gurugram");
         js.executeScript("window.scrollBy(0,200)");
@@ -45,10 +44,9 @@ public class ApplyFilterPage extends Base {
         String text = msg.getText();
         String expectedText = "Gurugram";
         Assert.assertEquals(text, expectedText);
-        Thread.sleep(2000);
+        TimeUnit.MILLISECONDS.sleep(1000);
         WebElement bookBtnClick = driver.findElement(By.xpath("//*[@href='/spacedetails/3']"));
         bookBtnClick.click();
-        //Thread.sleep(2000);
     }
 
 }

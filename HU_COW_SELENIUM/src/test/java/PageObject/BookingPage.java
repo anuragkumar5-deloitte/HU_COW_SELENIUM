@@ -1,5 +1,4 @@
 package PageObject;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -7,12 +6,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import Resources.Base;
-
 import java.util.concurrent.TimeUnit;
-
-
 public class BookingPage extends Base {
-    //By explore = By.xpath("//li[contains(text(),'Explore')]");
     By detailsPage = By.xpath("//h3[contains(text(),'Additional Details')]");
     By conBooking = By.xpath("//*[text()='Continue with Booking']");
     By hoursField = By.xpath("//input[@id='formBasicHours']");
@@ -31,24 +26,19 @@ public class BookingPage extends Base {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,600)");
         js.executeScript("window.scrollTo(document.body.scrollHeight,100)");
-
-        Thread.sleep(5000);
+        TimeUnit.MILLISECONDS.sleep(1000);
         driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
         //continue booking btn
         WebElement continueBookingBtn = driver.findElement(conBooking);
         js.executeScript("arguments[0].click()",continueBookingBtn);
-        Thread.sleep(2000);
-        //driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
-
+        TimeUnit.MILLISECONDS.sleep(1000);
     }
     public void enterHours() throws InterruptedException {
 
         WebElement hoursInputEle = driver.findElement(hoursField);
         String hours = "2";
         hoursInputEle.sendKeys(hours);
-        //driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
-        Thread.sleep(2000);
         //scrolling up
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(document.body.scrollHeight,400)");
@@ -74,18 +64,14 @@ public class BookingPage extends Base {
         System.out.println("total price,GST and grand total are updated according to the hours booked!");
 
     }
-
     public void clickConfirmBooking() throws InterruptedException {
         WebElement confirmBookingBtn = driver.findElement(confirmBooking);
         confirmBookingBtn.click();
-        //driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
-        Thread.sleep(2000);
+        TimeUnit.MILLISECONDS.sleep(1000);
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(document.body.scrollHeight,0)");
-        Thread.sleep(2000);
-        //driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
-
+        TimeUnit.MILLISECONDS.sleep(1000);
         //checking the booking is confirmed or not
         String actualBookConfirm = driver.findElement(By.xpath("//div[@class='Confirmation']/child::h1")).getText();
         String expectedBookConfirm = "Booking Confirmed";

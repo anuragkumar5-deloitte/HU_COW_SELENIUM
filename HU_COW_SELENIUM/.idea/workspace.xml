@@ -10,28 +10,31 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/About_Home_Page.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/About_Home_Page.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/ClickExploreTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/ClickExploreTest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Home_Page_cabin.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Home_Page_cabin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Home_page.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Home_page.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Home_page_Arrow_Right.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Home_page_Arrow_Right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Home_page_Book_Now.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Home_page_Book_Now.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Home_page_Hot_Seats.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Home_page_Hot_Seats.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Home_page_Large_Desk.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Home_page_Large_Desk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/SelectLocationTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/SelectLocationTest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/SelectTypesTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/SelectTypesTest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/ValidateDeskTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/ValidateDeskTest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/addareview.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/addareview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/adminScenarioTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/adminScenarioTest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/clickUserLoginTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/clickUserLoginTest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/enterPasswordTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/enterPasswordTest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/enterUserNameTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/enterUserNameTest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/validateAdminLogin.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/validateAdminLogin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/validateAdminSignup.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/validateAdminSignup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/validateClickCheckBox.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/validateClickCheckBox.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/validateConfirmBookingPage.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/validateConfirmBookingPage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/validateContinueBooking.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/validateContinueBooking.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/validateSignup.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/validateSignup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/About_Home_Page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/ClickExploreTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Home_Page_cabin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Home_page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Home_page_Arrow_Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Home_page_Book_Now.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Home_page_Hot_Seats.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Home_page_Large_Desk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/SelectLocationTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/SelectTypesTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/ValidateDeskTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/addSpaceBtnTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/addareview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/adminScenarioTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/bookedSpaceBtnTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/clickUserLoginTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/enterPasswordTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/enterUserNameTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/totalSpaceBtnTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/validateAdminLogin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/validateAdminSignup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/validateClickCheckBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/validateConfirmBookingPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/validateContinueBooking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/validateSignup.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/ApplyFilterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/ApplyFilterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BookingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/HomePage.java" afterDir="false" />
@@ -46,6 +49,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/AdminSignupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/AdminSignupTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/AdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/AdminTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ApplyFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ApplyFilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/BookingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/BookingPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/UserLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/UserLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/addreviewtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/addreviewtest.java" afterDir="false" />

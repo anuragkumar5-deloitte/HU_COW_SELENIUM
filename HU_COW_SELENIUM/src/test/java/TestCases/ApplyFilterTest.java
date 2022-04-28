@@ -1,6 +1,5 @@
 package TestCases;
 import Resources.Base;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import PageObject.ApplyFilterPage;
 public class ApplyFilterTest extends Base {
